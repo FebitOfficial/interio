@@ -184,7 +184,7 @@ const Intro = ({ position, hovered, setHovered }) => {
         </motion.div>
         {/* )} */}
         <div className="text-[3vw] z-[1] md:pt-[14px] lg:pt-[0] text-textPrimary font-medium w-[95%] m-auto">
-          <div className="text-[4vw]">
+          <div className="text-[7vw] md:text-[4vw]">
             {text1.map((el, i) => (
               <motion.span
                 initial={{ opacity: 0 }}
@@ -201,6 +201,7 @@ const Intro = ({ position, hovered, setHovered }) => {
           </div>
           {text2.map((el, i) => (
             <motion.span
+              className="text-[5vw] md:text-[3vw]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
