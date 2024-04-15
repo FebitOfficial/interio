@@ -23,6 +23,7 @@ const CustomSwiper = ({
   breakpoints,
   paginated,
   type,
+  id,
 }) => (
   <div className="inventory-wrapper h-full">
     <div id="" className="relative h-full">
@@ -42,8 +43,8 @@ const CustomSwiper = ({
         loop
         modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
         navigation={{
-          nextEl: ".arrow-right",
-          prevEl: ".arrow-left",
+          nextEl: `.arrow-right-${id}`,
+          prevEl: `.arrow-left-${id}`,
         }}
         autoplay={{
           delay: 5000,
@@ -56,10 +57,14 @@ const CustomSwiper = ({
         {showButton && type !== "full" && (
           <>
             {" "}
-            <button className="arrow-left absolute  top-[50%] translate-y-[-50%] left-[5px] z-[999999999]">
+            <button
+              className={`arrow-left-${id} absolute  top-[50%] translate-y-[-50%] left-[5px] z-[999999999]`}
+            >
               <PrevButton />
             </button>
-            <button className="arrow-right absolute top-[50%] translate-y-[-50%] right-[5px] z-[999999999]">
+            <button
+              className={`arrow-right-${id} absolute top-[50%] translate-y-[-50%] right-[5px] z-[999999999]`}
+            >
               <NextButton />
             </button>
           </>

@@ -26,6 +26,7 @@ const SwiperSection = ({ id, sideContent, images, onClick }) => {
     >
       <div className="max-w-[99%] mx-auto lg:max-w-[70%]">
         <CustomSwiper
+          id={id}
           showButton
           paginated={true}
           breakpoints={{
@@ -44,7 +45,7 @@ const SwiperSection = ({ id, sideContent, images, onClick }) => {
                 >
                   <img
                     src={item.link}
-                    onClick={()=> onClick(item)}
+                    onClick={() => onClick(item)}
                     alt={item?.title}
                     className="w-full lg:max-h-[700px] max-h-[400px] object-contain lg:object-cover rounded-[10px]"
                   />
