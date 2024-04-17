@@ -2,13 +2,13 @@ import Home from "./pages/Home/Home";
 import Telephone from "./assets/telephone.png";
 import { useEffect, useState } from "react";
 function App() {
-  const [top, setTop] = useState(12);
+  const [top, setTop] = useState(50);
   useEffect(() => {
     const handleScroll = () => {
       const maxScrollableHeight =
         document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercent = (window.scrollY / maxScrollableHeight) * 100;
-      const newTop = Math.min(Math.max(scrollPercent, 12), 80); // Limiting the top value to a maximum of 50%
+      const newTop = Math.min(Math.max(scrollPercent, 50), 80); // Limiting the top value to a maximum of 50%
       setTop(newTop);
     };
 
