@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/bundle";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { testimonials } from ".";
 
 // import PrevButton from "assets/Icons/Global/PrevButton";
 // import NextButton from "assets/Icons/Global/NextButton";
@@ -80,31 +81,23 @@ const Testimonials = ({
           },
         }}
       >
-        {Array.from({ length: 10 }, (_) => {
+        {testimonials.map((item) => {
           return (
             <SwiperSlide>
               <div className="w-[95%] m-auto h-[460px] min-h-[360px] flex flex-col justify-between text-neutral-800 p-[12px] border-[2px] border-neutral-700">
                 <div className="text-[16px] tracking-[1.25px] leading-[160%] flex flex-col gap-[12px]">
-                  <p>
-                    Lorem aliquip. Occaecat enim excepteur cillum sunt.
-                    Consectetur aliquip velit irure nisi eu reprehenderit duis
-                    sint non ex. Velit deserunt duis et eiusmod minim aliquip
-                    voluptate laborum et eu cillum qui excepteur ex."
-                  </p>{" "}
-                  <p>
-                    "Sint pariatur irure dolore ipsum esse reprehenderit nostrud
-                  </p>
+                  <p>{item.desc}</p>{" "}
                 </div>
                 <div className="flex items-center gap-[12px]">
                   <div className="">
                     <img
                       className="w-[56px] h-[56px] rounded-full overflow-hidden object-cover"
-                      src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                      src="https://static.vecteezy.com/system/resources/thumbnails/004/511/281/small/default-avatar-photo-placeholder-profile-picture-vector.jpg"
                     />
                   </div>
                   <div className="text-black text-[12px]">
-                    <p>John Doe</p>
-                    <p>Software Engineer</p>
+                    <p>{item.name}</p>
+                    <p>{item.role}</p>
                   </div>
                 </div>
               </div>
