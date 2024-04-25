@@ -13,6 +13,7 @@ import Modal from "../../components/Modal/Modal";
 import useDisclosure from "../../hooks/useDisclosure";
 import CustomSwiper from "../../components/CustomSwiper/CustomSwiper";
 import { SwiperSlide } from "swiper/react";
+import { Icon } from "@iconify/react";
 const Home = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
   const { showContact } = useContext(HomeContext);
@@ -92,7 +93,7 @@ const Home = () => {
   return (
     <>
       <Modal isOpen={isOpen}>
-        <div className="relative max-w-[99%] mx-auto lg:max-w-[90%]">
+        <div className="relative bg-black lg:bg-white max-w-[99%] mx-auto lg:max-w-[90%]">
           <CustomSwiper
             type={"full"}
             showButton
@@ -125,10 +126,10 @@ const Home = () => {
           />
         </div>
         <div
-          className="absolute z-[99999999999] top-2 right-4 cursor-pointer"
+          className="absolute text-white lg:text-black  z-[99999999999] top-2 right-4 cursor-pointer"
           onClick={onClose}
         >
-          <img src={close} className="w-6 h-6" />
+          <Icon icon="mingcute:close-fill" className="w-6 h-6" />
         </div>
       </Modal>
       <Intro position={"fixed"} hovered={hovered} setHovered={setHovered} />
