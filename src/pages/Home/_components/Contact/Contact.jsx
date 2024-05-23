@@ -7,10 +7,34 @@ import { toast } from "sonner";
 const Contact = ({ position, zIndex }) => {
   const { showContact } = useContext(HomeContext);
   const formRef = useRef();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    budget: "",
+    message: "",
+  });
+  const handleFormFieldChange = (e) => {
+    console.log(e.target.name, e.target.value);
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
+  console.log(formData);
+  function isValidEmail(email) {
+    // Regular expression to validate email format
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return regex.test(email);
+  }
+
   const sendEmail = (e) => {
     e.preventDefault();
+    if (!isValidEmail(formData.email)) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -49,33 +73,37 @@ const Contact = ({ position, zIndex }) => {
             label="Name *"
             required
             name="name"
+            onChange={handleFormFieldChange}
           />
           <Input
             placeholder="Write Your Email"
             label="Email *"
             required
-            email="email"
+            name="email"
+            onChange={handleFormFieldChange}
           />
         </div>
         <div className="flex items-end flex-col lg:flex-row  lg:gap-[82px]">
           <Input
             placeholder="Your Budget"
             type="number"
-            label="Budget"
+            label="Budget *"
             required
             name="budget"
+            onChange={handleFormFieldChange}
           />
           <div className="py-[12px] w-full flex flex-col gap-[6px] md:gap-[12px]">
             <label className="text-black text-[16px] font-semibold">
-              About Your Project
+              About Your Project *
             </label>
             <textarea
               rows={5}
               className="w-full border-[2px] p-[12px] text-black border-neutral-900 rounded-md"
               placeholder="Project Info"
-              label="About Your Project"
+              label="About Your Project *"
               required
               name="message"
+              onChange={handleFormFieldChange}
             />
           </div>
         </div>
