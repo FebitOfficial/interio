@@ -25,12 +25,7 @@ export const swiperContent = [
     subTitle: "RK House Interiors",
     textContent: [
       {
-        desc: `  Discover our RK House project where we seamlessly blended
-        modern aesthetics with timeless design. From the initial
-        building construction to the final interior touches, we
-        crafted a space that harmonizes sophistication and comfort.
-        Explore the fusion of functionality and style in every room,
-        creating a truly inviting home.`,
+        desc: `Discover our RK House project where we seamlessly blended modern aesthetics with timeless design. From the structural elements to the final touches of tile work, POP installations, plumbing, and electrical wiring, we crafted a space that harmonizes sophistication and comfort. Explore the fusion of functionality and style in every room, creating a truly inviting home..`,
       },
     ],
     images: [
@@ -71,12 +66,7 @@ export const swiperContent = [
     subTitle: "Fatima Residency Interior Marvel",
     textContent: [
       {
-        desc: ` Step into the world of Fatima Residency, a testament to our
-            expertise in both construction and interior design. From
-            laying the foundation to selecting exquisite furnishings,
-            we've meticulously curated a space that exudes luxury and
-            comfort. Experience the seamless blend of architectural
-            prowess and aesthetic refinement in every corner.`,
+        desc: `Step into the world of Fatima Residency, a testament to our expertise in civil works and interior design. From intricate tile work to precision POP installations, from plumbing to electrical wiring, we've meticulously curated a space that exudes luxury and comfort. Experience the seamless blend of architectural prowess and aesthetic refinement in every corner.`,
       },
     ],
     images: [
@@ -106,12 +96,7 @@ export const swiperContent = [
     subTitle: "MK Home's Elegance",
     textContent: [
       {
-        desc: ` Explore the allure of MK Home, where our design journey
-            transcended construction to unveil a harmonious living space.
-            From the foundation to the finishing touches, we've sculpted a
-            home that resonates with architectural elegance. Immerse
-            yourself in a sanctuary where every detail reflects the
-            perfect blend of style and comfort.`,
+        desc: `Embark on a journey through MK Homes, where our expertise in civil works and interior design converge to reveal a harmonious living space. From the meticulous tile work to the precise POP installations, plumbing, and electrical wiring, we've sculpted a home that resonates with architectural elegance. Immerse yourself in a sanctuary where every detail reflects the perfect blend of style and comfort.`,
       },
     ],
     images: [
@@ -148,12 +133,7 @@ export const swiperContent = [
     subTitle: " Shobha City Apartment Tranquil Retreat",
     textContent: [
       {
-        desc: ` Step into the tranquil retreat of our Shobha City Apartment
-    project, where urban living meets serenity. From construction
-    to interior design, we've curated a space that harmonizes
-    modern aesthetics with a calming atmosphere. Immerse yourself
-    in the perfect blend of city sophistication and peaceful
-    dwelling in every corner.`,
+        desc: `Step into the tranquil retreat of our Shobha City Apartment project, where urban living meets serenity. From meticulous tile work to precise POP installations, plumbing, electrical wiring, and the installation of a pigeon net, we've curated a space that harmonizes modern aesthetics with a calming atmosphere. Immerse yourself in the perfect blend of city sophistication and peaceful dwelling in every corner.`,
       },
     ],
     images: [

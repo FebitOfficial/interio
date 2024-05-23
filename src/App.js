@@ -29,7 +29,7 @@ function App() {
         >
           <button className="bg-white shadow-1 rounded-tl-[16px] shadow-2 rounded-bl-[16px] pl-[5px] ">
             <a
-              href="https://wa.me/8904458815"
+              href="https://wa.me/+919972260445"
               className="contact-data-info"
               target="_blank"
               rel="noreferrer"
@@ -43,7 +43,7 @@ function App() {
           </button>
           <button className="bg-white shadow-1 rounded-tl-[16px] shadow-2 rounded-bl-[16px] pl-[5px] py-[6px]">
             <a
-              href="tel:8904458815"
+              href="tel:+919972260445"
               className="contact-data-info"
               target="_blank"
               rel="noreferrer"
