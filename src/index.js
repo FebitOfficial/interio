@@ -5,12 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { HomeContextProvider } from "./context/HomeContext/HomeContext";
+import { Toaster } from "sonner";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <HomeContextProvider>
+        <Toaster />
         <App />
       </HomeContextProvider>
     </BrowserRouter>

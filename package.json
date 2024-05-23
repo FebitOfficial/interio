@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@iconify/react": "^4.1.1",
     "@react-hook/media-query": "^1.1.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +16,7 @@
     "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
     "react-tabs": "^6.0.2",
+    "sonner": "^1.4.41",
     "swiper": "^11.0.6",
     "web-vitals": "^2.1.4"
   },
