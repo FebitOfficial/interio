@@ -106,7 +106,6 @@ export const swiperContent = [
       { link: project4, tagName: "Bedroom" },
       { link: project5, tagName: "Wardrobe" },
       { link: project6, tagName: "Bedroom" },
-      { link: project8, tagName: "Wardrobe" },
     ],
     bg: "#2a3475",
     tags: [
