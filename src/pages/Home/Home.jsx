@@ -3,7 +3,7 @@ import Intro from "./_components/Intro/Intro";
 import SwiperSection from "../../components/SwiperSection/SwiperSection";
 import Testimonials from "./_components/Testimonials/Testimonials";
 import Contact from "./_components/Contact/Contact";
-import { swiperContent } from ".";
+// import { swiperContent } from ".";
 import { motion } from "framer-motion";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
@@ -14,11 +14,15 @@ import useDisclosure from "../../hooks/useDisclosure";
 import CustomSwiper from "../../components/CustomSwiper/CustomSwiper";
 import { SwiperSlide } from "swiper/react";
 import { Icon } from "@iconify/react";
+import { useRealtimeSwipeContents } from "../../hooks/realtimeDb/useRealtimeSwipeContents";
 const Home = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
   const { showContact } = useContext(HomeContext);
   const [hovered, setHovered] = useState(null);
   const [showFullImage, setShowFullImage] = useState(null);
+
+  const { data: swiperContent } = useRealtimeSwipeContents();
+
   const textVariants = {
     initial: {
       x: 100,

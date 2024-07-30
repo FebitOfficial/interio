@@ -1,0 +1,198 @@
+{
+  "swiperContent": [
+    {
+      "id": 1,
+      "title": "Elegance Redefined",
+      "subTitle": "RK House Interiors",
+      "textContent": [
+        {
+          "desc": "Discover our RK House project where we seamlessly blended modern aesthetics with timeless design. From the structural elements to the final touches of tile work, POP installations, plumbing, and electrical wiring, we crafted a space that harmonizes sophistication and comfort. Explore the fusion of functionality and style in every room, creating a truly inviting home.."
+        }
+      ],
+      "images": [
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/11L.jpg",
+          "tagName": "Dining"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/12L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/16L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/17L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/18L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/19L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/21L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/22L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/23L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/24L.jpg",
+          "tagName": "Wardrobe"
+        }
+      ],
+      "bg": "#3cb4d3",
+      "color": "white",
+      "tags": [
+        { "title": "All" },
+        {
+          "title": "Bedroom",
+          "link": "https://mhiinteriors.netlify.app/design/bedroom"
+        },
+        {
+          "title": "Wardrobe",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        },
+        {
+          "title": "Dining",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Timeless Opulence",
+      "subTitle": "Fatima Residency Interior Marvel",
+      "textContent": [
+        {
+          "desc": "Step into the world of Fatima Residency, a testament to our expertise in civil works and interior design. From intricate tile work to precision POP installations, from plumbing to electrical wiring, we've meticulously curated a space that exudes luxury and comfort. Experience the seamless blend of architectural prowess and aesthetic refinement in every corner."
+        }
+      ],
+      "images": [
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/5L.jpg",
+          "tagName": "Bedroom"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/6L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/7L.jpg",
+          "tagName": "Wardrobe"
+        }
+      ],
+      "bg": "#feb841",
+      "color": "black",
+      "tags": [
+        { "title": "All" },
+        {
+          "title": "Bedroom",
+          "link": "https://mhiinteriors.netlify.app/design/bedroom"
+        },
+        {
+          "title": "Wardrobe",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Harmony Unveiled",
+      "subTitle": "MK Home's Elegance",
+      "textContent": [
+        {
+          "desc": "Embark on a journey through MK Homes, where our expertise in civil works and interior design converge to reveal a harmonious living space. From the meticulous tile work to the precise POP installations, plumbing, and electrical wiring, we've sculpted a home that resonates with architectural elegance. Immerse yourself in a sanctuary where every detail reflects the perfect blend of style and comfort."
+        }
+      ],
+      "images": [
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/1L.jpg",
+          "tagName": "Dining"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/3L.jpg",
+          "tagName": "Dining"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/4L.jpg",
+          "tagName": "Dining"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/5L.jpg",
+          "tagName": "Bedroom"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/6L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/7L.jpg",
+          "tagName": "Bedroom"
+        }
+      ],
+      "bg": "#2a3475",
+      "tags": [
+        { "title": "All" },
+        {
+          "title": "Bedroom",
+          "link": "https://mhiinteriors.netlify.app/design/bedroom"
+        },
+        {
+          "title": "Wardrobe",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        },
+        {
+          "title": "Dining",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Urban Serenity",
+      "subTitle": " Shobha City Apartment Tranquil Retreat",
+      "textContent": [
+        {
+          "desc": "Step into the tranquil retreat of our Shobha City Apartment project, where urban living meets serenity. From meticulous tile work to precise POP installations, plumbing, electrical wiring, and the installation of a pigeon net, we've curated a space that harmonizes modern aesthetics with a calming atmosphere. Immerse yourself in the perfect blend of city sophistication and peaceful dwelling in every corner."
+        }
+      ],
+      "images": [
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/15L.jpg",
+          "tagName": "Bedroom"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/14L.jpg",
+          "tagName": "Wardrobe"
+        },
+        {
+          "link": "https://pub-f5f9137075214913adecc2d7535c75c9.r2.dev/4L.jpg",
+          "tagName": "Wardrobe"
+        }
+      ],
+      "bg": "#ff6767",
+      "tags": [
+        { "title": "All" },
+        {
+          "title": "Bedroom",
+          "link": "https://mhiinteriors.netlify.app/design/bedroom"
+        },
+        {
+          "title": "Wardrobe",
+          "link": "https://mhiinteriors.netlify.app/design/wardrobe"
+        }
+      ]
+    }
+  ]
+}
